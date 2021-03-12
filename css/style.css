@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+}
+
+.postal {
+    background-color: white;
+    width: 500px;
+    height: 350px;
+    padding: 10px;
+    margin: auto;
+    position: absolute; top: 25%; left: 25%;
+}
+
+.encabezado {
+    overflow: hidden;
+}
+
+.encabezado img {
+    max-width: 60px;
+    float: right;
+ }
+
+h1 {
+    font-size: 35px;
+    margin: 0;
+}
+
+.cuerpo {
+    display: table;
+    
+}
+
+.cuerpo div {
+    display: table-cell;
+}
+
+.parte-derecha {
+    width: 50%;
+    max-height: fit-content;
+}
+
+
+.parte-izquierda {
+    width: 50%;
+    max-height: fit-content;
+}
+
+.cuerpo input {
+    font-size: 18px;
+    width: 250px;
+    font-family: 'Handlee', cursive;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+
+.final {
+    text-align: center;
+}
+
+.sendbutton {
+    padding: 6px 5px 5px 5px;
+	background-color: #b2b7bf;
+	text-decoration: none;
+    color: black;
+}
